@@ -123,16 +123,23 @@ label {
 }
 
 @media all and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+    }
     .container {
-        flex-direction: column;
+        flex-direction: column; 
     }
     .item {
         height: auto;
         min-height: 300px;
-        height: 300px; 
-
+    }
+    .selected h4 {
+        font-size: 30px;
+    }
+    .selected .price {
+        font-size: 25px;
     }
     .selected {
-        flex: 4;
+        flex: 6;
     }
 }
