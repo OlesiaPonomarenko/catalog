@@ -120,6 +120,57 @@ label {
     font-size: 30px;
     background-color: #00adb5;
     flex: 1;
+    font-family: 'Dancing Script', cursive;
+}
+
+.blockTwo {
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.blockTwoDiv {
+    background-color: 00adb5;
+}
+
+.hBlockTwo {
+    background-color: 00adb5;
+    font-size: 40px;
+}
+ p {
+    background-color: 00adb5;
+    font-size: 25px;
+ }
+.reviems {
+    width: 250px;
+    height: 150px;
+    background-color: #faf1e6;
+}
+.wishes {
+    display: flex;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+}
+
+a {
+    color: black;
+}
+
+.next {
+    border-style: none;
+    border-radius: 5px;
+}
+
+.back {
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btnClick {
+    border-radius: 50%;
+    padding: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -127,11 +178,12 @@ label {
         font-size: 40px;
     }
     .container {
+        display: flex;
         flex-direction: column; 
+        height: 100hv;
     }
     .item {
-        height: auto;
-        min-height: 300px;
+        min-height: 150px;
     }
     .selected h4 {
         font-size: 30px;
@@ -141,5 +193,11 @@ label {
     }
     .selected {
         flex: 6;
+    }
+    .blockTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
 }
