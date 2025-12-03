@@ -181,7 +181,7 @@ a {
         flex-direction: column; 
     }
     .item {
-        min-height: 30vh;
+        min-height: 20vh;
         transition: 1s;
         position: relative;
         padding: 15px;
@@ -197,8 +197,7 @@ a {
         font-size: 20px;
     }
     .selected {
-        flex: unset;
-        min-height: 20vh;
+        min-height: 60vh;
 
     }
     .blockTwo {
