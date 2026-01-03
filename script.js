@@ -1,6 +1,6 @@
  function timerDays () {
 
-    const dateOpen = (new Date('January 31 2026 10:00'));
+    const dateOpen = (new Date('January 31 2026 09:00'));
     const now = new Date();
     const diff = dateOpen - now;
     const msInSecond = 1000;
