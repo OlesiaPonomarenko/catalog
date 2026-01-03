@@ -1,6 +1,6 @@
  function timerDays () {
 
-    const dateOpen = (new Date('December 31 2025 09:00'));
+    const dateOpen = (new Date('January 31 2026 10:00'));
     const now = new Date();
     const diff = dateOpen - now;
     const msInSecond = 1000;
@@ -27,11 +27,27 @@
         document.querySelector('.second').textContent =0;
     
     clearInterval(timerId);
+    dataOpen();
+    blocked();
 }
 
  }
 
  let timerId = setInterval(timerDays, 1000);
+
+
+ function dataOpen() {
+
+    const newHeading = document.querySelector('h1');
+    newHeading.textContent = 'We are already open !!!'
+    
+ }
+
+ function blocked() {
+
+    document.querySelector('.containerTimer').style.display = 'none';
+    
+ }
 
 
 const images = document.querySelectorAll('.item');
